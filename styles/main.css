@@ -1,7 +1,14 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  background-color: hsl(0, 0%, 100%);
 }
